@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="doan.MasterPages.Site" %>
+<!DOCTYPE html>
+<html lang="vi">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link href="~/Assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="logo">PHÒNG TRỌ</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">📅 ĐẶT PHÒNG</a></li>
+                        <li><a href="#">🔍 TÌM PHÒNG</a></li>
+                        <li><a href="#">📄 XEM THÔNG TIN</a></li>
+                        <li><a href="#">👤 QUẢN LÍ TÀI KHOẢN</a></li>
+                        <li><a href="#">🛒 GIỎ HÀNG</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Main content -->
+            <div class="main-content">
+                <!-- Header -->
+                <div class="header-top">
+                    <div class="title">TRANG CHỦ</div>
+                    <div class="search-box">
+                        <input type="text" placeholder="Tìm kiếm...">
+                        <button>🔍</button>
+                    </div>
+                    <div class="icon-group">
+                        <a href="#"><img src="/Assets/img/language.png" alt="Grid" /></a>
+                        <a href="#"><img src="/Assets/img/ThongBao.png" alt="Thông báo" /></a>
+                        <a href="#"><img src="/Assets/img/user.png" alt="Người dùng" /></a>
+                    </div>
+                </div>
+
+                <!-- Nội dung từng trang -->
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                <!-- ✅ Footer -->
+                <footer class="footer">
+                    <p>© 2025 Phòng Trọ - Website tìm phòng trọ tiện lợi dành cho sinh viên & người đi làm.</p>
+                </footer>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
