@@ -1,0 +1,68 @@
+﻿body {
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px 25px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select,
+asp\:TextBox {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+input[type="submit"],
+asp\:Button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+    input[type="submit"]:hover,
+    asp\:Button:hover {
+        background: #0056b3;
+    }
+
+#lblMessage {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
