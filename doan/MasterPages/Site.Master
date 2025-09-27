@@ -17,7 +17,7 @@
                         <li><a href="#">📅 ĐẶT PHÒNG</a></li>
                         <li><a href="#">🔍 TÌM PHÒNG</a></li>
                         <li><a href="#">📄 XEM THÔNG TIN</a></li>
-                        <li><a href="#">👤 QUẢN LÍ TÀI KHOẢN</a></li>
+                        <li><a href="Pages/NguoiDung/QLTK.aspx">👤 QUẢN LÍ TÀI KHOẢN</a></li>
                         <li><a href="#">🛒 GIỎ HÀNG</a></li>
                     </ul>
                 </nav>
@@ -35,7 +35,9 @@
                     <div class="icon-group">
                         <a href="#"><img src="/Assets/img/language.png" alt="Grid" /></a>
                         <a href="#"><img src="/Assets/img/ThongBao.png" alt="Thông báo" /></a>
-                        <a href="#"><img src="/Assets/img/user.png" alt="Người dùng" /></a>
+                        <a href="Pages/NguoiDung/Login.aspx">
+                            <img src="/Assets/img/user.png" alt="Người dùng" />
+                        </a>
                     </div>
                 </div>
 
